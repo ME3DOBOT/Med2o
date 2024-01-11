@@ -311,7 +311,7 @@ async def fdsa(client, message):
 
 @app.on_message(command("طيب"))
 async def fdsa(client, message):
-  await message.reply_text(f"فرح خلتك قريب 😂")
+  await message.reply_text(f"فرح خالتك قريب 😂")
 
 @app.on_message(command("منور"))
 async def fdsa(client, message):
