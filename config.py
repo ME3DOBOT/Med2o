@@ -83,11 +83,11 @@ PING_IMG_URL = getenv(
     "https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg",
 )
 
-PLAYLIST_IMG_URL = "https://telegra.ph/file/7a6c5fb46057caeb5461e.jpg"
+PLAYLIST_IMG_URL = "https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg"
 
-GLOBAL_IMG_URL = "https://telegra.ph/file/7a6c5fb46057caeb5461e.jpg"
+GLOBAL_IMG_URL = "https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg"
 
-STATS_IMG_URL = "https://telegra.ph/file/7a6c5fb46057caeb5461e.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg"
 
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/7a6c5fb46057caeb5461e.jpg"
 
@@ -135,4 +135,4 @@ if PING_IMG_URL:
 if START_IMG_URL:
     if START_IMG_URL != "assets/Ping.jpeg":
         if not re.match("(?:http|https)://", START_IMG_URL):
-            START_IMG_URL = "https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg"
+            START_IMG_URL = "https://telegra.ph/file/7a6c5fb46057caeb5461e.jpg"
