@@ -11,7 +11,7 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, 
 )
 async def cr_source(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/5e62743deac646e4a2cdf.jpg",
+        photo=f"https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg",
         caption=f"""**⩹━⊷━⌞𝙎َِ𝙊َِ𝙐َِ𝙍َِ𝘾َِ𝙀 َِ𝙈َِ𝙊َِ𝙍3َِ𝘽⌝━⊶━⩺**\nمرحبا بك عزيزي {message.from_user.mention}\nهذا قسم الاوامر الخاص بسورس مـرعـب \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━⊷━⌞𝙎َِ𝙊َِ𝙐َِ𝙍َِ𝘾َِ𝙀 َِ𝙈َِ𝙊َِ𝙍3َِ𝘽⌝━⊶━⩺**""",
         reply_markup=InlineKeyboardMarkup(
             [
@@ -166,7 +166,7 @@ async def c_usage(_, callback_query: CallbackQuery):
 @app.on_callback_query(filters.regex("back"))
 async def cr_back(_, callback_query: CallbackQuery):
     await callback_query.edit_message_media(
-        media=InputMediaPhoto("https://telegra.ph/file/c5952790fa8235f499749.jpg",
+        media=InputMediaPhoto("https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg",
         caption=f"""**⩹━⊷━⌞𝙎َِ𝙊َِ𝙐َِ𝙍َِ𝘾َِ𝙀 َِ𝙈َِ𝙊َِ𝙍3َِ𝘽⌝━⊶━⩺**\nمرحبا بك عزيزي {callback_query.from_user.mention}\nهذا قسم الاوامر الخاص بسورس مـرعـب \nلمعرفة الاوامر اضغط على الأزرار بالأسفل👇\n**⩹━⊷━⌞𝙎َِ𝙊َِ𝙐َِ𝙍َِ𝘾َِ𝙀 َِ𝙈َِ𝙊َِ𝙍3َِ𝘽⌝━⊶━⩺**""",),
         reply_markup=InlineKeyboardMarkup(
             [
