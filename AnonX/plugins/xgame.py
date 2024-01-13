@@ -379,14 +379,14 @@ async def fdsa(client, message):
     
 @app.on_message(command("اي"))
 async def fdsa(client, message):
-  await message.reply_text(f"جتك اوهه م سامع ولا ايي 😹👻")
+  await message.reply_text(f"جتك اوهه م سامع ولا اى 😹👻")
 @app.on_message(
     command(["الالعاب","العاب"])
     & ~filters.edited
 )
 async def zohary(client: Client, message: Message):
     await message.reply_photo(
-        photo=f"https://telegra.ph/file/c5952790fa8235f499749.jpg",
+        photo=f"https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg",
         caption= GAME_MESSAGE,
         reply_markup=InlineKeyboardMarkup(GAME_BUTTONS)
     )  
