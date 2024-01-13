@@ -335,7 +335,7 @@ async def fdsa(client, message):
 
 @app.on_message(command("نعم"))
 async def fdsa(client, message):
-  await message.reply_text(f"نعم الله عليك 🌚❤️")
+  await message.reply_text(f"نـعـم الله عليك 🌚❤️")
 
 @app.on_message(command("صلي علي النبي"))
 async def fdsa(client, message):
@@ -347,7 +347,7 @@ async def fdsa(client, message):
 
 @app.on_message(command("😭"))
 async def fdsa(client, message):
-  await message.reply_text(f"بتعيط تيب لي طيب 😥")
+  await message.reply_text(f"بتعيط تيب لي طـيـب 😥")
 
 @app.on_message(command("😒"))
 async def fdsa(client, message):
@@ -359,7 +359,7 @@ async def fdsa(client, message):
 
 @app.on_message(command("اه"))
 async def fdsa(client, message):
-  await message.reply_text(f"اه اي يا قدع عيب 😹💔")
+  await message.reply_text(f"اة اي يا قدع عيب 😹💔")
 
 @app.on_message(command("حصل"))
 async def fdsa(client, message):
@@ -375,7 +375,7 @@ async def fdsa(client, message):
 
 @app.on_message(command("قتل"))
 async def fdsa(client, message):
-  await message.reply_text(f"انت عايز تلبسني جريمة ولا اي يسطا 😹")
+  await message.reply_text(f"انت عايز تلبسني جريمة ولا اى يسطا 😹")
     
 @app.on_message(command("اي"))
 async def fdsa(client, message):
