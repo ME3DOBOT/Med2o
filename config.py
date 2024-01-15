@@ -89,9 +89,9 @@ GLOBAL_IMG_URL = "https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg"
 
 STATS_IMG_URL = "https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg"
 
-TELEGRAM_AUDIO_URL = "https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/7a6c5fb46057caeb5461e.jpg"
 
-TELEGRAM_VIDEO_URL = "https://telegra.ph/file/74d7222ff0fdc7c24a938.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/7a6c5fb46057caeb5461e.jpg"
 
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 
